@@ -1,15 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:700);
+
+h3 {
+color: black;
+  border-collapse: separate;
+  border-spacing: 16px 0;
+  border-spacing: 1rem 0;
+  display: table;
+  font-family: Merriweather;
+  font-size: 3em;
+  line-height: .25;
+  margin: 1em 0 .5em;
+  table-layout: auto;
+  text-align: center;
+  text-shadow: .0625em .0625em 0 rgba(0, 0, 0, .2);
+  white-space: nowrap;
+  width: 100%;
+}
+
+h3:before,h3:after
+{
+  border-top: 3px double black;
+  content: '';
+  display: table-cell;
+  width: 50%;
+}
+
+h3:before,h3:after {
+  border-top-width: 6px;
+}
+
+h1 { font-size: 4em; }
+h1:before,h1:after {
+  border-top-style: solid;
+}
+
+body{
+	text-align: center;
+}
+
 .navbar{
   background-color:black;
   width: 100%;
-  height:100px;
-  opacity: 0.9;
-}
-.logo{
-	margin-bottom: 100px;
-	text-align: center;
-}
-#title{
-	color: sienna;
+  height:55px;
+  
 }
 
 .nav-menu {
@@ -101,7 +134,7 @@
 .nav-menu li .active .back,
 .nav-menu li a:hover .front,
 .nav-menu li a:hover .back {
-  background-color: lightblue;
+  background-color: black;
   background-size: 5px 5px;
   background-position: 0 0, 30px 30px;
   background-image: -*-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
@@ -121,23 +154,6 @@
   display: block;
   transform: rotateX(0deg);
 }
-.Kenice-Washington {
-	text-align: center;
-	border-style: double;
-	border-color: black;
-	border-radius: 70px;
-}
-	.About-me{
-        border-style: groove;
-        border-color: black;
-		border-radius: 70px;
-		margin-bottom: 300px;
-	}
-	
-
-.container {
-
-}
 
 h2{
 
@@ -148,22 +164,13 @@ p {
   line-height: 150%;
   color: black;
 }
-.form{
-	background-color: black;
-	height: 900px;
-	width: 900px;
-	text-align: center;
-	margin-top: 300px;
-	margin-left: 300px;
-	opacity: 0.9;
-	border-style: double;
-}
+
 #kenice { 
-background: url("http://24.media.tumblr.com/0afbf6354eb342f0ea9bd7f52c2466a1/tumblr_mxx3lsLoxz1qa3xrfo1_1280.png") 50% 0 repeat fixed; min-height: 1000px;
+background: url("http://37.media.tumblr.com/2292c0583894cd27ef887ca431e4cc40/tumblr_mkjw8oi7vb1s5jt7zo1_500.jpg") 50% 0 repeat fixed; min-height: 1000px;
 }
 	
 #home { 
-background: url("http://www.tumblr.com/photo/1280/pinkfancyblack/1014142586/1/tumblr_l7rfjzKOKz1qbszwi") 50% 0 repeat fixed; min-height: 1000px;
+background: url("http://static.tumblr.com/tvq92vh/MLelyuzvt/tumblr_lscvfyngnp1r3rp72o1_500.png") 50% 0 repeat fixed; min-height: 1000px;
 }
  
 
@@ -171,7 +178,7 @@ background: url("http://www.tumblr.com/photo/1280/pinkfancyblack/1014142586/1/tu
 background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa6hjQDLF01chXRZqQxe3SYC1iZ1LpofXI2*8wHsLjjRelZT7-BtisvNwER80/19121162.jpg") 50% 0 repeat fixed; min-height: 1000px;
 }
 #kenice { 
-  background: url("http://24.media.tumblr.com/0afbf6354eb342f0ea9bd7f52c2466a1/tumblr_mxx3lsLoxz1qa3xrfo1_1280.png") 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("http://epiphanyinthecacophony.files.wordpress.com/2014/03/water-ocean-and-waves-44_www-fullhdwpp-com_.jpg") 50% 0 repeat fixed; min-height: 1000px; 
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -187,7 +194,7 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 }
 
 #home { 
-  background: url("http://www.tumblr.com/photo/1280/pinkfancyblack/1014142586/1/tumblr_l7rfjzKOKz1qbszwi") 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("https://c4.staticflickr.com/4/3141/2855567184_5639584559_b.jpg") 50% 0 repeat fixed; min-height: 1500px; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -204,7 +211,7 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
  
 
 #slide { 
-  background: url("http://data1.whicdn.com/images/50772686/tumblr_mhep9lxMRc1s133elo1_500_large.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("http://img0.svstatic.com/wallpapers/bf8555ccffb40ec1a43b1249ac2ec5ce_large.jpeg") 50% 0 repeat fixed; min-height: 1000px; 
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -218,89 +225,60 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
   top: 150px; 
   width: 100%; 
 }
+
 #margin{
 	padding-top: 300px;
 }
-#opaque{
-	opacity: .5;
-	width: 500px;
+ .header1{
+ 	font-family: Merriweather;
+ 	color: black;
+ 	padding-top: 200px;
+ 	text-align: center;
+ 	font-size: 100px;
+ 	
+ 	}
+
+.header2{
+	padding-top: 50px;
+	margin-bottom: 100px;
+	color: black;
+}
+
+.insta{
 	background-color: white;
-	margin-left: 50px;
-	margin-right: 400px;
-
+	width: 500px;
+}
+.awesome{
+	margin-right: 150px;
+	margin-bottom: 100px;
+	margin-left: 150px;
+	background-color: white;
+	width: 500px;
+}
+.todo{
+	margin-right: 150px;
+	margin-left: 150px;
+	width: 500px;
+}
+.blog{
+	margin-bottom: 100px;
+	margin-right: 150px;
+	background-color: white;
+	background-position: center;
+	width: 570px;
+}
+.header3{
+	color: white;
+	margin-bottom:200px;
+	margin-top: 100px;
+}
+#wrapper .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
 }
 
-
+#wrapper:hover .text {
+visibility:visible;
 }
- @media screen and (max-width:959px){
-   	#kenice{
-   		width: 100%;
-   	}
-
-   	#home{
-   		width: 100%;
-   	}
-
-   	#about{
-   		width: 100%;
-   	}
-   	#slide{
-   		width: 100%;
-   	}
-
-   	#opaque {
-   		width: 100%;
-   	}
-
-
-   } 
-
-    @media screen and (max-width:568px){
-
-	#kenice{
-   		width: 100%;
-   	}
-
-   	#home{
-   		width: 100%;
-   	}
-
-   	#about{
-   		width: 100%;
-   	}
-   	#slide{
-   		width: 100%;
-   	}
-   	#opaque {
-   		width: 100%;
-   	}
-
-   	img {
-   		width: 100%;
-   	}
-
-    }  
-    @media screen and (max-width:320px){
-   	#kenice{
-   		width: 100%;
-   	}
-
-   	#home{
-   		width: 100%;
-   	}
-
-   	#about{
-   		width: 100%;
-   	}
-   	#slide{
-   		width: 100%;
-   	}
-   	#opaque {
-   		width: 100%;
-   	}
-
-   	img {
-   		width: 100%;
-   	}
-
-   }   
