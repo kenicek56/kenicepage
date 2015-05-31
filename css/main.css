@@ -42,6 +42,7 @@ body{
   background-color:black;
   width: 100%;
   height:55px;
+  opacity: 0.7;
   
 }
 
@@ -178,11 +179,13 @@ background: url("http://static.tumblr.com/tvq92vh/MLelyuzvt/tumblr_lscvfyngnp1r3
 background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa6hjQDLF01chXRZqQxe3SYC1iZ1LpofXI2*8wHsLjjRelZT7-BtisvNwER80/19121162.jpg") 50% 0 repeat fixed; min-height: 1000px;
 }
 #kenice { 
-  background: url("http://epiphanyinthecacophony.files.wordpress.com/2014/03/water-ocean-and-waves-44_www-fullhdwpp-com_.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("http://download-wallpapers.net/wallpapers/beach-wallpapers-wallpaper-beach-image-rocks-images-wallpaper-40869.jpg") 50% 0 repeat fixed; min-height: 1000px; 
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7); 
+  box-sizing:border-box;
 }
 #kenice article { 
   height: 458px; 
@@ -191,14 +194,19 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
   top: 150px; 
   width: 100%; 
   text-decoration: white;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7); 
+  box-sizing:border-box;
+
 }
 
 #home { 
-  background: url("https://c4.staticflickr.com/4/3141/2855567184_5639584559_b.jpg") 50% 0 repeat fixed; min-height: 1500px; 
+  background: url("http://salonphal.com/wp-content/uploads/2014/04/tumblr_static_white_damask_background-wallpaper-2560x16001.jpg") 50% 0 repeat fixed; min-height: 1500px; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7); 
+  box-sizing:border-box;
 }
  
 #home article { 
@@ -206,16 +214,20 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
   position: absolute; 
   text-align: center; 
   top: 150px; 
-  width: 100%; 
+  width: 100%;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7); 
+  box-sizing:border-box; 
 }
  
 
 #slide { 
-  background: url("http://img0.svstatic.com/wallpapers/bf8555ccffb40ec1a43b1249ac2ec5ce_large.jpeg") 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("http://epiphanyinthecacophony.files.wordpress.com/2014/03/water-ocean-and-waves-44_www-fullhdwpp-com_.jpg") 50% 0 repeat fixed; min-height: 1000px; 
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7); 
+  box-sizing:border-box;
 }
  
 #slide article { 
@@ -246,26 +258,31 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 
 .insta{
 	background-color: white;
-	width: 500px;
+	width: 565px;
+	height: 300px;
 }
 .awesome{
-	margin-right: 150px;
+	margin-right: 110px;
 	margin-bottom: 100px;
-	margin-left: 150px;
+	margin-left: 130px;
 	background-color: white;
-	width: 500px;
+	width: 565px;
+	height: 300px;
 }
 .todo{
-	margin-right: 150px;
-	margin-left: 150px;
-	width: 500px;
+	background-color: white;
+	margin-right: 110px;
+	margin-left: 130px;
+	width: 565px;
+	height: 300px;
 }
 .blog{
 	margin-bottom: 100px;
 	margin-right: 150px;
 	background-color: white;
 	background-position: center;
-	width: 570px;
+	width: 565px;
+	height: 300px;
 }
 .header3{
 	color: white;
@@ -277,8 +294,22 @@ position:relative;
 bottom:30px;
 left:0px;
 visibility:hidden;
+text-align: center;
 }
 
 #wrapper:hover .text {
 visibility:visible;
+}
+img {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.text{
+	font-size: 20px;
+	text-align: center;
 }
