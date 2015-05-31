@@ -1,13 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:700);
 
 h3 {
-color: black;
+  text-shadow: 2px 2px 4px black;
+  color: white;
   border-collapse: separate;
   border-spacing: 16px 0;
   border-spacing: 1rem 0;
   display: table;
   font-family: Merriweather;
-  font-size: 3em;
+  font-size: 2em;
   line-height: .25;
   margin: 1em 0 .5em;
   table-layout: auto;
@@ -200,7 +201,7 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 }
 
 #home { 
-  background: url("http://salonphal.com/wp-content/uploads/2014/04/tumblr_static_white_damask_background-wallpaper-2560x16001.jpg") 50% 0 repeat fixed; min-height: 1500px; 
+  background: url("http://www.h3dwallpapers.com/wp-content/uploads/2015/05/White_Background_Hd_01.jpg") 50% 0 repeat fixed; min-height: 1500px; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -238,22 +239,22 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
   width: 100%; 
 }
 
-#margin{
-	padding-top: 300px;
-}
+
  .header1{
+ 	color: white;
+    text-shadow: 2px 2px 4px black;
  	font-family: Merriweather;
- 	color: black;
- 	padding-top: 200px;
+ 	padding-top: 100px;
  	text-align: center;
- 	font-size: 100px;
+ 	font-size: 80px;
  	
  	}
 
 .header2{
+	text-shadow: 2px 2px 4px black;
 	padding-top: 50px;
 	margin-bottom: 100px;
-	color: black;
+	color: white;
 }
 
 .insta{
@@ -312,4 +313,16 @@ img:hover {
 .text{
 	font-size: 20px;
 	text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 989px) {
+#kenice {
+background-attachment: scroll !important;
+}
+#slide {
+background-attachment: scroll !important;
+}
+#home {
+	background-color: blue;
+background-attachment: scroll !important;
+}
 }
