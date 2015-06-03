@@ -5,9 +5,9 @@
           <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
           <link rel="stylesheet" type="text/css" href="css/main.css">
           <link rel="stylesheet" href="css/animate.css">
-          <link rel="stylesheet" type="text/css" href="js/main.js">
           <link rel="stylesheet" type="text/css" href="css/custom-style.css">
           <link rel="stylesheet" href="css/animate.css">
+          <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
           <script src="js/wow.min.js"></script>
 <script>
  new WOW().init();
@@ -40,8 +40,10 @@
               Kenice Washington
            	  </div> 
           </h1>
-          <h3>Web Developor or Nah?</h3>
+          <h3>Web Developer or Nah?</h3>
           </div>
+          
+
         </section>
 
         <section id="home" data-type="background" data-speed="10" class="pages">
@@ -58,8 +60,8 @@
               <div id="wrapper">
                 <div class="awesome col-xs-6">
          	      <a href="http://localhost/KeniceWawesomenauts/index.php">
-                    <img alt="pics/awesome" src="pics/awesome.jpg" class="hover" width="550px">
-                      <p class="text">text</p>
+                    <img alt="pics/awesome" src="pics/awesome.jpg" class="hover" width="600px" height="370">
+                      <p class="text">I made a video game called awesomenauts</p>
                   </a>
                 </div>
               </div>
@@ -67,9 +69,9 @@
               <div id="wrapper">
                 <div class="blog col-xs-6">
                   <a href="http://localhost/washingtonk-blog/washingtonk-blog-master/index.php">
-                    <img alt="pics/blog" src="pics/blog.jpg" class="hover" width="550px">
+                    <img alt="pics/blog" src="pics/blog.jpg" class="hover" width="600px" height="370" />
                   </a>
-                     <p class="text">text</p>
+                     <p class="text"> My Blog</p>
                 </div>
               </div>
           </div>
@@ -77,17 +79,17 @@
             <div id="wrapper">
          	  <div class="todo col-xs-6">
          	    <a href="http://localhost/todo-list2.0/index.php">
-                  <img alt="pics/todo" src="pics/todo.jpg" class="hover" width="550px">
+                  <img alt="pics/todo" src="pics/todo.jpg" class="hover" width="600px" height="370">
                 </a>
-                  <p class="text">text</p>
+                  <p class="text">My todo List</p>
               </div>
             </div>
             <div id="wrapper">
               <div class="insta col-xs-6">
          	    <a href="http://localhost/Kenicesta/index.php">
-                  <img alt="pics/insta" src="pics/insta.jpg" class="hover" width="550px" />
+                  <img alt="pics/insta" src="pics/insta.jpg" class="hover" width="600px" height="370" />
                 </a>
-                  <p class="text">text</p>
+                  <p class="text">Instagram</p>
               </div>
             </div>
           </div>
@@ -96,18 +98,38 @@
 
         <section id="slide" data-type="background" data-speed="10" class="pages">
           <article></article>
+          <div class="wow rollIn">
             <div class="contact col-xs-12">
          	 <h1> <div class="header3">
          		   Contact Me!
          	 </h1>
+         	 </div>
          	      </div>
             </div>
-          <form action="form_process.php" method="POST">
-          Name:<br> <input type="text" name="name"><br>
-          Request: <br><textarea name="request"></textarea>
-          <input type="submit" name="submit" value="Send!">
-
-          </form>				
+            <ul>
+    <li><a href="https://www.facebook.com/kenice.washington?__nodl"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://instagram.com/hey_bitchez56/"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://github.com/kenicek56"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://plus.google.com/115714926776160222195/posts"><i class="fa fa-google-plus"></i> </a></li>
+</ul>
+<div class="wow rubberBand">
+<div id="form-wrap">
+	      <form action="contact.php" method="post">
+	      <fieldset>
+	      	<label class="labelone" for="name">Name: </label>
+	      	<input name="name"/>
+	      	<label for="email">Email:</label>
+	      	<input name="email"/>
+	      	<label for="comments">Comments</label>
+	      	<textarea name="comments"></textarea>
+	      </fieldset>
+	      <fieldset>
+	      	<input class="btn" type="submit" value="Send Email"/>
+	      	<input class="btn" type="reset" value="Reset Form"/>
+	      </fieldset>
+         </form>
+         </div>
+</div>
         </section>
  </body>
 </html>

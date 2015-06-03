@@ -43,7 +43,6 @@ body{
   background-color:black;
   width: 100%;
   height:55px;
-  opacity: 0.7;
   
 }
 
@@ -168,11 +167,11 @@ p {
 }
 
 #kenice { 
-background: url("http://37.media.tumblr.com/2292c0583894cd27ef887ca431e4cc40/tumblr_mkjw8oi7vb1s5jt7zo1_500.jpg") 50% 0 repeat fixed; min-height: 1000px;
+background: url("http://www.tortugasvillas.com/wp-content/uploads/2013/12/mmw-3.jpg") 50% 0 repeat fixed; min-height: 1000px;
 }
 	
 #home { 
-background: url("http://static.tumblr.com/tvq92vh/MLelyuzvt/tumblr_lscvfyngnp1r3rp72o1_500.png") 50% 0 repeat fixed; min-height: 1000px;
+background: url("http://broadreachbenefits.com/wp-test/wp-content/uploads/2014/02/clouds-background.png") 50% 0 repeat fixed; min-height: 1000px;
 }
  
 
@@ -180,13 +179,12 @@ background: url("http://static.tumblr.com/tvq92vh/MLelyuzvt/tumblr_lscvfyngnp1r3
 background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa6hjQDLF01chXRZqQxe3SYC1iZ1LpofXI2*8wHsLjjRelZT7-BtisvNwER80/19121162.jpg") 50% 0 repeat fixed; min-height: 1000px;
 }
 #kenice { 
-  background: url("http://download-wallpapers.net/wallpapers/beach-wallpapers-wallpaper-beach-image-rocks-images-wallpaper-40869.jpg") 50% 0 repeat fixed; min-height: 1000px; 
- -webkit-background-size: cover;
+  background: url("http://www.tortugasvillas.com/wp-content/uploads/2013/12/mmw-3.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7); 
-  box-sizing:border-box;
+  
 }
 #kenice article { 
   height: 458px; 
@@ -195,13 +193,12 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
   top: 150px; 
   width: 100%; 
   text-decoration: white;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, 7); 
-  box-sizing:border-box;
+  
 
 }
 
 #home { 
-  background: url("http://www.h3dwallpapers.com/wp-content/uploads/2015/05/White_Background_Hd_01.jpg") 50% 0 repeat fixed; min-height: 1500px; 
+  background: url("http://broadreachbenefits.com/wp-test/wp-content/uploads/2014/02/clouds-background.png") 50% 0 repeat fixed; min-height: 1500px; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -222,7 +219,7 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
  
 
 #slide { 
-  background: url("http://epiphanyinthecacophony.files.wordpress.com/2014/03/water-ocean-and-waves-44_www-fullhdwpp-com_.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("http://img0.mxstatic.com/wallpapers/1820a86e112db97fa13dfe8de84b1030_large.jpeg") 50% 0 repeat fixed; min-height: 1000px; 
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -251,43 +248,44 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
  	}
 
 .header2{
+	font-family: Merriweather;
 	text-shadow: 2px 2px 4px black;
 	padding-top: 50px;
 	margin-bottom: 100px;
-	color: white;
+	color: lightcoral;
 }
 
 .insta{
 	background-color: white;
-	width: 565px;
-	height: 300px;
+	width: 615px;
+	height: 370px;
 }
 .awesome{
-	margin-right: 110px;
-	margin-bottom: 100px;
-	margin-left: 130px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 110px;
 	background-color: white;
-	width: 565px;
-	height: 300px;
+	width: 595px;
+	height: 370px;
 }
 .todo{
 	background-color: white;
-	margin-right: 110px;
-	margin-left: 130px;
-	width: 565px;
-	height: 300px;
+	margin-right: 40px;
+	margin-left: 110px;
+	width: 595px;
+	height: 370px;
 }
 .blog{
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 	margin-right: 150px;
 	background-color: white;
-	background-position: center;
-	width: 565px;
-	height: 300px;
+	width: 615px;
+	height: 370px;
 }
 .header3{
+	font-family: Merriweather;
 	color: white;
-	margin-bottom:200px;
+	margin-bottom:50px;
 	margin-top: 100px;
 }
 #wrapper .text {
@@ -307,46 +305,139 @@ img {
 }
 
 img:hover {
-    opacity: 0.3;
+    opacity: 0.2;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 .text{
 	font-size: 20px;
 	text-align: center;
+	padding-bottom: 300px;
 }
+ul {
+    overflow: auto;
+    margin-left: 620px;
+}
+ 
+ul li {
+    list-style-type: none;
+    float: left;
+    margin-bottom: 50px;
+}
+ 
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-facebook {
+    background:#3b5998
+} 
+.fa-linkedin {
+    background:#007bb6
+}
+.fa-twitter {
+    background:#00aced
+}
+.google-plus {
+    background:#dd4b39
+}
+ul li a i:hover {
+    opacity: .7;
+}
+
+#form-wrap{
+	width:600px;
+	border:5px solid #ccc;
+	background-color: gray;
+	opacity: 0.9;
+	margin: 50px auto;
+	padding: 10px 0;
+
+} 
+form{
+	width: 500px;
+	margin: 0 auto;
+	height: 400px;
+}
+label{
+	display: block;
+	margin: 5 0 5 20px;
+	font: 18px Merriweather;
+	color: black;
+
+}
+input{
+	width: 250px;
+	margin: 0 0 0 20px;
+}
+
+textarea{
+	width:250px;
+	margin: 0 0 0 20px; 
+}
+fieldset{
+	height: 200px;
+	border:none;
+	background-color: gray;
+	padding: 0 0 20 0px;
+}
+.labelone{
+	margin-top: 10px;
+}
+.btn{
+	margin-top: 100px;
+	width: 125px;
+}
+.btn:hover{
+	opacity: 0.7;
+	background-color: blue;
+}
+
+
 @media only screen and (min-width: 320px) and (max-width: 989px) {
 #kenice {
-background:url("https://41.media.tumblr.com/a00896c7137cb24b7f6d05edef9e0791/tumblr_n4y5eic84D1t4l1a1o1_500.jpg");
-background-size: 2000px;
+
+
 background-attachment: scroll !important;
 background-repeat: no-repeat;
 }
 #slide {
 background-attachment: scroll !important;
-background:url("http://www.totallylayouts.com/backgrounds/floral/small_water_pastel_color_flowers.gif");
 }
 #home {
-	background:url("http://www.freelargeimages.com/wp-content/uploads/2014/12/Cool_backgrounds_tumblr-2.jpg");
+	
 background-attachment: scroll !important;
 }
 .awesome{
+	margin-right: 600px;
 	background-color: transparent;
 	width: 10px;
 	height: 10px;
+	margin-bottom: 200px;
 }
 .blog{
-	margin-left: 120px;
+	margin-bottom: 200px;
+	margin-left: 110px;
 	background-color: transparent;
 	width: 10px;
 	height: 10px;
 }
 .todo{
+	margin-bottom: 100px;
 	background-color: transparent;
 	width: 10px;
 	height: 10px;
 }
 .insta{
-	margin-left: 100px;
+	margin-left: 110px;
 	margin-top: 100px;
 	margin-right: 90px;
 	background-color: transparent;
@@ -355,7 +446,8 @@ background-attachment: scroll !important;
 }
 
 img{
-	width: 150px;
+	width: 250px;
+	height: 160px;
 }
 h3{
 	font-size: 10px;
@@ -363,4 +455,99 @@ h3{
 .header1{
 	font-size: 50px;
 }
+#form-wrap{
+	height: 300px;
+	width:300px;
+	border:5px solid #ccc;
+	background-color: gray;
+	opacity: 0.9;
+	margin: 50px auto;
+	padding: 10px 0;
+
+} 
+form{
+	width: 200px;
+	margin: 0 auto;
+	height: 100px;
+}
+label{
+	display: block;
+	margin: 5 0 5 20px;
+	font: 18px Merriweather;
+	color: black;
+
+}
+input{
+	width: 150px;
+	margin: 0 0 0 20px;
+}
+
+textarea{
+	width:100px;
+	margin: 0 0 0 20px; 
+}
+fieldset{
+	height: 100px;
+	border:none;
+	background-color: gray;
+	padding: 0 0 20 0px;
+}
+.labelone{
+	margin-top: 10px;
+}
+.btn{
+	margin-top: 50px;
+	width: 100px;
+}
+.btn:hover{
+	opacity: 0.7;
+	background-color: blue;
+}
+.text{
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+ul {
+    overflow: auto;
+    margin-left: 60px;
+}
+ 
+ul li {
+    list-style-type: none;
+    float: left;
+    margin-bottom: 50px;
+}
+ 
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-facebook {
+    background:#3b5998
+} 
+.fa-linkedin {
+    background:#007bb6
+}
+.fa-twitter {
+    background:#00aced
+}
+.google-plus {
+    background:#dd4b39
+}
+ul li a i:hover {
+    opacity: .7;
+}
+
+
+
 }
